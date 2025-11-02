@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-# my_m3_tp2
-=======
-# my_m3_tp1
->>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
+# Atelier Mobile Flutter
+
+This repository contains my two Flutter projects:
+- my_m3_tp1
+- my_m3_tp2
 
 A new Flutter project.
 
