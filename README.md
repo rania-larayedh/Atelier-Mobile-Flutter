@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # my_m3_tp2
+=======
+# my_m3_tp1
+>>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
 
 A new Flutter project.
 

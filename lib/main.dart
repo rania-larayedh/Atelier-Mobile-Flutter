@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'product.dart';
 import 'atelier3.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
