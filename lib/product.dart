@@ -1,16 +1,15 @@
 class Product {
   final String name;
   final double price;
+  final String image;
+  final bool isNew;
   final double rating;
-  final String image; 
 
-  Product({
-    required this.name,
-    required this.price,
-    required this.rating,
-    required this.image,
+  const Product(
+    this.name,
+    this.price,
+    this.image, {
+    this.isNew = false,
+    this.rating = 0.0,
   });
 }
-
-
-
