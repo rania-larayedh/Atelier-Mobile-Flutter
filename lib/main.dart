@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'atelier4.dart'; 
+import 'atelier4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProductListPage(), 
+      title: 'Atelier 4 & 5',
+      home: Atelier4(),
     );
   }
 }
