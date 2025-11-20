@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
+    namespace = "com.example.my_m3_tp2"
+=======
     namespace = "com.example.my_m3_tp1"
+>>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
+        applicationId = "com.example.my_m3_tp2"
+=======
         applicationId = "com.example.my_m3_tp1"
+>>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

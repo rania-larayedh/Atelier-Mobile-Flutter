@@ -1,4 +1,8 @@
-# my_m3_tp1
+# Atelier Mobile Flutter
+
+This repository contains my two Flutter projects:
+- my_m3_tp1
+- my_m3_tp2
 
 A new Flutter project.
 
