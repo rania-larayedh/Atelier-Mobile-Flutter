@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'atelier4.dart';
+import 'atelier6.dart';
+import 'cart_page.dart';
 
 void main() {
   runApp(const MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,8 +13,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Atelier 4 & 5',
-      home: Atelier4(),
+      title: 'Shop App',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+
+      // FIRST SCREEN
+      home: const HomePage(),
+
+      // ROUTES
+      routes: {
+        '/cart': (context) => const CartPage(),
+      },
     );
   }
 }

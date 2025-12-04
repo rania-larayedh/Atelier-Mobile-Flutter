@@ -4,12 +4,14 @@ class Product {
   final String image;
   final bool isNew;
   final double rating;
+  int quantity;
 
-  const Product(
+  Product(
     this.name,
     this.price,
     this.image, {
     this.isNew = false,
     this.rating = 0.0,
+    this.quantity = 1,
   });
 }
