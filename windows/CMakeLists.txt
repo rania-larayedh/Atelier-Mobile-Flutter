@@ -1,18 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-<<<<<<< HEAD
-project(my_m3_tp2 LANGUAGES CXX)
 
-# The name of the executable created for the application. Change this to change
-# the on-disk name of your application.
-set(BINARY_NAME "my_m3_tp2")
-=======
 project(my_m3_tp1 LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "my_m3_tp1")
->>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
+
+project(my_m3_tp1 LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "my_m3_tp1")
+
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

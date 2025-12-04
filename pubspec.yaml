@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-name: my_m3_tp2
-=======
+
+
 name: my_m3_tp1
->>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
+
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -62,24 +61,21 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-<<<<<<< HEAD
+
   assets:
+    - assets/  
     - assets/google.jpg
     - assets/iphone-15.jpg
     - assets/samsung.jpg
-
-=======
-<<<<<<< HEAD
-  assets:
-    - assets/iphone17.png
+    
   #  - assets/galaxy.png
   #  - assets/pixel.png
-=======
+
   # assets:
->>>>>>> bf1da1ef0821ca24424b46c1c1848b6649616ea5
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
->>>>>>> 826c37c303e443c2595e29d7c3664fe98b5bd1aa
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Shop App',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.deepPurple,
       ),
 
       // FIRST SCREEN
